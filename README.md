@@ -11,7 +11,7 @@
 
 <!-- markdownlint-enable MD013 -->
 
-Learners' project of the Programming Formalisms course of autumn 2024.
+Learners' project of the Programming Formalisms course of summer 2024.
 
 ## Goal
 
