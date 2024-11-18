@@ -43,13 +43,14 @@ Can be used as a package?|Yes
 
 ## Team roles
 
-Role              |Name
-------------------|-----------------------
-Product owner     |.
-Issue manager     |.
-Software architect|.
-Data manager      |.
-Lead developer    |.
+Role                 |Name
+---------------------|-----------------------
+Product owner        |.
+Requirements engineer|.
+Issue manager        |.
+Software architect   |.
+Data manager         |.
+Lead developer       |.
 
 ## Usage
 
