@@ -16,18 +16,7 @@ Learners' project of the Programming Formalisms course of summer 2024.
 
 ## Goal
 
-To simulate bacterial movement in 2D space.
-
-One way to model bacterial movement is
-the run and tumble model,
-where 'run' is going straight in a direction,
-and 'tumble' is picking a random direction.
-The 'run' lasts longer when a bacterium
-finds more and more nutrients (e.g. dissolved
-sugars), and lasts shorter
-when finding less and less nutrients.
-
-![Run and tumble, from https://www.coursehero.com/study-guides/microbiology/unique-characteristics-of-prokaryotic-cells/](run_and_tumble.jpg)
+[Project brief here, based on weather data from `[Bergström & Moberg, 2002]`]
 
 ## Project state
 
@@ -88,8 +77,8 @@ Filename                                  |Descriptions
 
 ## References
 
-- [Wang et al., 2011] Wang, Charles CN, et al.
-  "Simulation of bacterial chemotaxis by the random run and tumble model."
-  2011 IEEE 11th International Conference on Bioinformatics and
-  Bioengineering. IEEE, 2011.
-
+- `[Bergström & Moberg, 2002]` Bergström, Hans, and Anders Moberg. 
+  "Daily air temperature and pressure series for Uppsala (1722–1998)." 
+  Climatic change 53.1 (2002): 213-252 
+  [PDF](https://www.smhi.se/polopoly_fs/1.175744!/Bergstr%C3%B6m_Moberg_Uppsala.pdf)
+  [Data](https://www.smhi.se/polopoly_fs/1.2866!/uppsala_tm_1722-2022.zip)
