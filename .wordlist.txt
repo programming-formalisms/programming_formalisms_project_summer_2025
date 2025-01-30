@@ -45,3 +45,7 @@ yml
 src
 coursehero
 Medior
+Anders
+Bergström
+Moberg
+Uppsala
