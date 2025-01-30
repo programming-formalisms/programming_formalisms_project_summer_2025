@@ -18,42 +18,18 @@ Learners' project of the Programming Formalisms course of summer 2024.
 
 [Project brief here, based on weather data from `[Bergström & Moberg, 2002]`]
 
-## Project state
-
-This will change over the course's time.
-
-Parameter                |Value
--------------------------|-----------------------
-Branching setup          |Trunk-based development
-Merge workflow           |Not applicable
-Testing                  |Yes
-Continuous integration   |Yes
-Can be used as a package?|Yes
-
-## Team roles
-
-Role                 |Name
----------------------|-----------------------
-Product owner        |.
-Requirements engineer|.
-Issue manager        |.
-Software architect   |.
-Data manager         |.
-Lead developer       |.
-
 ## Usage
 
 > The lead developer and product owner are free to change this,
 > if they both agree on the new usage.
 
 ```python
-from bacsim.simulation import run_experiment
-run_experiment("parameters.csv", "results.csv")
+# TODO RICHEL
 ```
 
 ## Internal links
 
-- [design](design/README.md): design documents
+- [Requirements](docs/requirements.md): design documents
 - [src/learners](src/learners/README.md): place to put code
 - [learners](learners/README.md): place to put non-code
 
@@ -73,7 +49,7 @@ Filename                                  |Descriptions
 
 ## External links
 
-- [Programming Formalisms GitHub repository](https://github.com/UPPMAX/programming_formalisms)
+- [Programming Formalisms course website](https://uppmax.github.io/programming_formalisms/)
 
 ## References
 
