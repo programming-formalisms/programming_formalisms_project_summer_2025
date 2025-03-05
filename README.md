@@ -16,16 +16,7 @@ Learners' project of the Programming Formalisms course of summer 2024.
 
 ## Goal
 
-[Project brief here, based on weather data from `[Bergström & Moberg, 2002]`]
-
-## Usage
-
-> The lead developer and product owner are free to change this,
-> if they both agree on the new usage.
-
-```python
-# TODO RICHEL
-```
+Do some analysis on data from an Uppsala weather station.
 
 ## Internal links
 
