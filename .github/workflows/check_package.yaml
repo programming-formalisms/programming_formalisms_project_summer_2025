@@ -28,4 +28,4 @@ jobs:
         run: ./scripts/run_console.sh
 
       # No idea where this is good for ...?
-      - uses: hynek/build-and-inspect-python-package@v1
+      - uses: hynek/build-and-inspect-python-package@v2
