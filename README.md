@@ -44,10 +44,8 @@ Filename                                  |Descriptions
 
 ## References
 
-
-
 - `[Bergström & Moberg, 2002]` Bergström, Hans, and Anders Moberg. 
   "Daily air temperature and pressure series for Uppsala (1722–1998)." 
   Climatic change 53.1 (2002): 213-252 
-  [PDF](https://www.smhi.se/polopoly_fs/1.175744!/Bergstr%C3%B6m_Moberg_Uppsala.pdf)
-  [Data](https://www.smhi.se/polopoly_fs/1.2866!/uppsala_tm_1722-2022.zip)
+  [PDF](https://www.smhi.se/download/18.6ae791dc18fc9e7539e1121c/1717658901728/Bergstr%C3%B6m_Moberg_Uppsala.pdf)
+  [Data](https://www.smhi.se/polopoly_fs/1.175744!/Bergstr%C3%B6m_Moberg_Uppsala.pdf)
