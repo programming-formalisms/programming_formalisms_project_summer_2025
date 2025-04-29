@@ -2,7 +2,7 @@
 
 <!-- markdownlint-disable MD013 --><!-- Badges cannot be split up over lines, hence will break 80 characters per line -->
 
-[![Check code style](https://github.com/programming-formalisms/programming_formalisms_project_summer_2025/actions/workflows/check_code_style.yaml/badge.svg?branch=master)](https://github.com/programming-formalisms/programming_formalisms_project_summer_2025/actions/workflows/check_code_style.yaml)
+[![Check code style](https://github.com/programming-formalisms/programming_formalisms_project_summer_2025/actions/workflows/check_code_style.yaml/badge.svg?branch=main)](https://github.com/programming-formalisms/programming_formalisms_project_summer_2025/actions/workflows/check_code_style.yaml)
 [![Check links](https://github.com/programming-formalisms/programming_formalisms_project_summer_2025/actions/workflows/check_links.yaml/badge.svg)](https://github.com/programming-formalisms/programming_formalisms_project_summer_2025/actions/workflows/check_links.yaml)
 [![Check markdown](https://github.com/programming-formalisms/programming_formalisms_project_summer_2025/actions/workflows/check_markdown.yaml/badge.svg)](https://github.com/programming-formalisms/programming_formalisms_project_summer_2025/actions/workflows/check_markdown.yaml)
 [![Check package](https://github.com/programming-formalisms/programming_formalisms_project_summer_2025/actions/workflows/check_package.yaml/badge.svg)](https://github.com/programming-formalisms/programming_formalisms_project_summer_2025/actions/workflows/check_package.yaml)
@@ -44,8 +44,8 @@ Filename                                  |Descriptions
 
 ## References
 
-- `[Bergström & Moberg, 2002]` Bergström, Hans, and Anders Moberg. 
-  "Daily air temperature and pressure series for Uppsala (1722–1998)." 
-  Climatic change 53.1 (2002): 213-252 
+- `[Bergström & Moberg, 2002]` Bergström, Hans, and Anders Moberg.
+  "Daily air temperature and pressure series for Uppsala (1722–1998)."
+  Climatic change 53.1 (2002): 213-252
   [PDF](https://www.smhi.se/download/18.6ae791dc18fc9e7539e1121c/1717658901728/Bergstr%C3%B6m_Moberg_Uppsala.pdf)
   [Data](https://www.smhi.se/polopoly_fs/1.175744!/Bergstr%C3%B6m_Moberg_Uppsala.pdf)
