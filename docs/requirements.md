@@ -35,7 +35,7 @@ R3            |Can predict temperatures by interpolation                        
 .             |.                                                                   |Passes the test case  |Passing `predict_temperature` any other type of data as a first argument raises an exception
 .             |The function `predict_temparature`'s second argument is a `datetime`|Passes the test case  |Passing `predict_temperature` a `datetime` as a second argument gives no exception
 .             |.                                                                   |Passes the test case  |Passing `predict_temperature` any other type of data as a second argument raises an exception
-.             |Predicting before the first measurment fails                        |Passes the test case  |The function `predict_temparature` raises an exception 
+.             |Predicting before the first measurment fails                        |Passes the test case  |The function `predict_temparature` raises an exception
 .             |.                                                                   |.                     |When predicting the temperature on the time exactly between two temperature measurements, the predicted temperature is the average of the two
 .             |.                                                                   |.                     |When predicting the temperature on the time a temperature measurement is made, the exact measurement is returned
 R90           |Can convert temperature from Celsius to Kelvin                      |Passes the test cases |`convert_celsius_to_kelvin(-273.15)` returns zero (Kelvin), `convert_celsius_to_kelvin(0)` returns `273.15` (Kelvin)
