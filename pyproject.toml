@@ -32,8 +32,8 @@ classifiers = [
 
 # From https://wersdoerfer.de/blogs/ephes_blog/how-to-add-extra-data-to-a-python-package/
 [tool.hatch.build.targets.sdist.force-include]
-"data" = "weather/data"  # Include the fixtures directory in the sdist
+"data" = "weather"  # Include the fixtures directory in the sdist
 
 # From https://wersdoerfer.de/blogs/ephes_blog/how-to-add-extra-data-to-a-python-package/
 [tool.hatch.build.targets.wheel.force-include]
-"data" = "weather/data"  # Include the fixtures directory in the wheel
+"data" = "weather"  # Include the fixtures directory in the wheel
