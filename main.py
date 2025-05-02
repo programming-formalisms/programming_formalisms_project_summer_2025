@@ -12,4 +12,4 @@ from weather.reader import (
 )
 
 if __name__ == "__main__":
-    read_data("data/uppsala_tm_1722-2022.dat")
+    read_data()
