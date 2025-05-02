@@ -7,9 +7,9 @@ You need to have the bacsim Python package installed.
 Tip: run './scripts/install_this_package.sh'
 """
 
-from bacsim.experiment import (
-    run_experiment,
+from weather.reader import (
+    read_data,
 )
 
 if __name__ == "__main__":
-    run_experiment("parameters.csv", "results.csv")
+    read_data("data/uppsala_tm_1722-2022.dat")
