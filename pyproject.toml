@@ -29,11 +29,17 @@ classifiers = [
     lint.select = ["ALL"]
     lint.ignore = ["ANN", "PT", "PTH", "D211", "D213", "S101", "B006"]
 
+[tool.hatch.build.targets.sdist]
+include = [
+  "/data",
+  "/src",
+  "/tests",
+]
 
 # From https://wersdoerfer.de/blogs/ephes_blog/how-to-add-extra-data-to-a-python-package/
-[tool.hatch.build.targets.sdist.force-include]
-"data" = "/data"  # Include the fixtures directory in the sdist
+# [tool.hatch.build.targets.sdist.force-include]
+# "data" = "/data"  # Include the fixtures directory in the sdist
 
 # From https://wersdoerfer.de/blogs/ephes_blog/how-to-add-extra-data-to-a-python-package/
-[tool.hatch.build.targets.wheel.force-include]
-"data" = "/data"  # Include the fixtures directory in the wheel
+# [tool.hatch.build.targets.wheel.force-include]
+# "data" = "/data"  # Include the fixtures directory in the wheel
