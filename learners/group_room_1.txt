@@ -1,1 +1,2 @@
-This is the last line by me, Oscar
+This is the last line by me, Oscar and conflict resolved by Milena
+
