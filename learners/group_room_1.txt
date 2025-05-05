@@ -1,2 +1,4 @@
-This is the last line by me, Oscar and conflict resolved by Milena
+
+This is the last line by me, Oscar, Milena, and now Artur. Conflict resolved
+
 
