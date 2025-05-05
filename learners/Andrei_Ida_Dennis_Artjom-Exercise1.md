@@ -30,3 +30,7 @@ User needs
             dates , times and variable from which column
     Presentation
         
+
+| Requirement ID | Requirement Description | Acceptance Criteria | Test Cases |
+| -------- | ------- | ------- | ------- |
+| R1 | User input | User can specify which analysis to run on the command line | Verify that the selected analysis runs |
