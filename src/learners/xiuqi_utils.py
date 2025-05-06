@@ -6,7 +6,6 @@ def is_zero(number):
         return True
     return False
 
-
 def isprime(num):
     for n in range(2,int(num**0.5)+1):
         if num%n==0:

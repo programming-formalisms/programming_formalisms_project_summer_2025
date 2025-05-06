@@ -6,9 +6,11 @@ def is_zero(number):
         return True
     return False
 
-
 def isprime(num):
     for n in range(2,int(num**0.5)+1):
         if num%n==0:
             return False
     return True
+
+assert isprime(7)
+assert not isprime(8)

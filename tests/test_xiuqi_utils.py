@@ -1,13 +1,13 @@
-"""Tests all code in src.learners.artur_utils."""
+"""Tests all code in src.bacsim.sven_utils."""
 import unittest
 
-from src.learners.artur_utils import is_zero, isprime
+from src.learners.xiuqi_utils import is_zero
+from src.learners.xiuqi_utils import isprime
 
-class TestArturUtils(unittest.TestCase):
+class TestXiuqiUtils(unittest.TestCase):
 
-    """Class to test the code in src.learners.artur_utils."""
+    """Class to test the code in src.bacsim.sven_utils."""
 
-    # Test the function is_zero
     def test_is_zero_has_documentation(self):
         """The function 'is_zero' has documentation."""
         self.assertTrue(is_zero.__doc__)
@@ -22,14 +22,8 @@ class TestArturUtils(unittest.TestCase):
         """The function 'is_zero' raises an exception upon non-ints."""
         self.assertRaises(TypeError, is_zero, {1, 2})
         self.assertRaises(TypeError, is_zero, "I am a string")
-
-    # Test the function isprime
-    def test_isprime_has_documentation(self):
-        """The function 'isprime' has documentation."""
-        self.assertTrue(isprime.__doc__)
-        self.assertIsNotNone(isprime.__doc__)
-
-    def test_isprime_responds_correctly_to_ints(self):
-        """The function 'isprime' responds correctly to integers."""
+    
+    def test_isprime(self):
+        """The function 'is_prime' identifies prime and non prime numbers. """
         self.assertTrue(isprime(7))
         self.assertFalse(isprime(8))
