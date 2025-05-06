@@ -22,3 +22,9 @@ def is_even(x):
 assert is_even.__doc__
 assert is_even(2)
 assert not is_even(3)
+
+# Exercise 3
+def is_odd()
+    return True
+
+assert is_odd.__doc__
