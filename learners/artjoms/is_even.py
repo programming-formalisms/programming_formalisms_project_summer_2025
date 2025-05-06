@@ -23,3 +23,11 @@ except:
 assert exception_raised
 
 assert is_odd(3) == True
+assert not is_odd(2)
+assert is_odd.__doc__
+try:
+    is_odd("string")
+except TypeError:
+    exception = True
+assert exception
+assert is_odd(2.2)
