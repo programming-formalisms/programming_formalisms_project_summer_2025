@@ -5,10 +5,10 @@ def is_even(x):
     if not isinstance(x, (int, float)):
         raise TypeError("Input must be an integer or float.")
     
-    #if x % 2 != 0:
+    # if x % 2 != 0:
     #    return False
-  #  else:
-    #   return True
+    # else:
+    #    return True
     
     return x % 2 == 0
 
