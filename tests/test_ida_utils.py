@@ -2,6 +2,7 @@
 import unittest
 
 from src.learners.ida_utils import is_zero
+from src.learners.ida_utils import isprime
 
 class TestIdaUtils(unittest.TestCase):
 
@@ -21,3 +22,8 @@ class TestIdaUtils(unittest.TestCase):
         """The function 'is_zero' raises an exception upon non-ints."""
         self.assertRaises(TypeError, is_zero, {1, 2})
         self.assertRaises(TypeError, is_zero, "I am a string")
+
+    def test_isprime(self):
+        """The function 'isprime' is correct."""
+        self.assertTrue(isprime(7))
+        self.assertFalse(isprime(8))
