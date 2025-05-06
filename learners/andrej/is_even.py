@@ -2,6 +2,7 @@ def is_even(x):
     """determines if the input number is even or not"""
     if not isinstance(x, (float, int)):
         raise TypeError("The input is not numeric.")
+
     return x % 2 == 0
 
 assert is_even.__doc__
