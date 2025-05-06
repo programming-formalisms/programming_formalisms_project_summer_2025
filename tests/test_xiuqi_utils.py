@@ -2,6 +2,7 @@
 import unittest
 
 from src.learners.xiuqi_utils import is_zero
+from src.learners.xiuqi_utils import isprime
 
 class TestXiuqiUtils(unittest.TestCase):
 
@@ -21,3 +22,8 @@ class TestXiuqiUtils(unittest.TestCase):
         """The function 'is_zero' raises an exception upon non-ints."""
         self.assertRaises(TypeError, is_zero, {1, 2})
         self.assertRaises(TypeError, is_zero, "I am a string")
+    
+    def test_isprime(self):
+        """The function 'is_prime' identifies prime and non prime numbers. """
+        self.assertTrue(isprime(7))
+        self.assertFalse(isprime(8))
