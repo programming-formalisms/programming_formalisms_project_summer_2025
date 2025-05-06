@@ -1,5 +1,7 @@
 def is_odd(x):
     """Determine if a number is odd."""
+    if not isinstance(x,int):
+        raise TypeError("Input must be a number")
     return x % 2 != 0
 
 assert is_odd.__doc__
