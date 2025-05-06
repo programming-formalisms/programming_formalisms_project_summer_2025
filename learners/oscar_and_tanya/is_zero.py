@@ -1,5 +1,9 @@
 
-
+def is_zero(value):
+    """ Checks if the value is zero """
+    if not isinstance(value, (float,int)):
+        raise TypeError("Value is not of numeric type")
+    return value == 0
 
 """ Defined 'tests' for the function 'is_zero' """
 assert is_zero.__doc__
