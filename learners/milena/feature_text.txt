@@ -1,0 +1,5 @@
+Feature set: <reading> <Input data> to <Data structure>
+    set: <Data class>
+        object: <Date>, <Temperature>, <Temperature_corrected>, <Metadata>
+    set: <Reading function>
+        object: <input filepath>, <output Data class>
