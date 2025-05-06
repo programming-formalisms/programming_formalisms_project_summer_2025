@@ -7,3 +7,4 @@ def is_odd(x):
 assert is_odd.__doc__
 assert is_odd(2) == False
 assert is_odd(3) == True
+is_odd('x')
