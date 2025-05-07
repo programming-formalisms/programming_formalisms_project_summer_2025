@@ -12,6 +12,7 @@ class TestRichel(unittest.TestCase):
         self.assertIsInstance(get_digits(123), list)
         self.assertTrue(get_digits(123)[0] == 1)
         self.assertTrue(len(get_digits(123)) == 3)
-        self.assertRaises(TypeError,get_digits(-5))
-        self.assertRaises(TypeError,get_digits('Hello'))
-        self.assertRaises(TypeError,get_digits(0.4))
+        self.assertRaises(TypeError,get_digits,-5)
+        self.assertRaises(TypeError,get_digits,'Hello')
+        self.assertRaises(TypeError,get_digits, 0.4)
+
