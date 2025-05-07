@@ -11,3 +11,8 @@ class TestUtils(unittest.TestCase):
         """The function 'is_number' has documentation."""
         self.assertTrue(is_number.__doc__)
         self.assertIsNotNone(is_number.__doc__)
+
+    def test_is_number_is_number(self):
+        """The function 'is_number' can check if the input is a number"""
+        self.assertTrue(is_number(5))
+        self.assertFalse(is_number("hello"))
