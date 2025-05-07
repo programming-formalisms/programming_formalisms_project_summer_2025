@@ -1,1 +1,2 @@
 I want this line to be here. Andrej.
+The Arctic is warming four times faster than the global average1 and plant communities are responding through shifts in species abundance, composition and distribution2,3,4. However, the direction and magnitude of local changes in plant diversity in the Arctic have not been quantified. Using a compilation of 42,234 records of 490 vascular plant species from 2,174 plots across the Arctic, here we quantified temporal changes in species richness and composition through repeat surveys between 1981 and 2022. 
