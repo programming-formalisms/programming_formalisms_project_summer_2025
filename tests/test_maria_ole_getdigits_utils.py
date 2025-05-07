@@ -15,5 +15,3 @@ class TestRichel(unittest.TestCase):
         self.assertRaises(TypeError,get_digits(-5))
         self.assertRaises(TypeError,get_digits('Hello'))
         self.assertRaises(TypeError,get_digits(0.4))
-
-
