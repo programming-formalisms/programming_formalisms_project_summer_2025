@@ -1,0 +1,7 @@
+This is a text file, with text in it. 
+
+I made further changes in this file. 
+
+Third time working on these changes. These changes are in the text. 
+
+I 'll create a conflict, just because. 

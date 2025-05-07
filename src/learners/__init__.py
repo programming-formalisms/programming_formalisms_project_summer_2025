@@ -1,1 +1,1 @@
-"""Code for the 'bacsim' package."""
+"""Code for the 'weather' package."""
