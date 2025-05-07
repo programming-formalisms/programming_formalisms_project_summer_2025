@@ -1,2 +1,3 @@
-def celsius2kelvin():
-    return 0
+def celsius2kelvin(x):
+    """Function to convert Celsius to Kelvin"""
+    return x + 273
