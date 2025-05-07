@@ -10,7 +10,7 @@ class TestReader(unittest.TestCase):
 
     def test_read_data(self):
         """The function 'read_data' exists."""
-        read_data()
+        self.assertFalse(read_data(""))
 
     def test_reader_has_documentation(self):
         """The function 'is_zero' has documentation."""
