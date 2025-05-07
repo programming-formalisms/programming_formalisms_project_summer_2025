@@ -11,3 +11,10 @@ class TestReader(unittest.TestCase):
     def test_read_data(self):
         """The function 'read_data' exists."""
         read_data()
+
+    def test_reader_has_documentation(self):
+        """The function 'is_zero' has documentation."""
+        self.assertTrue(read_data.__doc__)
+
+    def test_reader_reads_file(self):
+        self.assertTrue(read_data("../data/uppsala_tm_1722-2022.dat"))
