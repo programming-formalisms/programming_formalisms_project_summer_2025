@@ -1,3 +1,4 @@
 Some change for testing merging branches.
 
-This is a change in the first branch
+To solve the conflict:
+This is the combined change from the first and the second branch!
