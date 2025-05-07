@@ -1,9 +1,9 @@
-"""Test 'get_digits.py in learners.maria_ole"""
+"""Test 'get_digits.py in src.learners.maria_ole"""
 import unittest
 
 from src.learners.maria_ole import get_digits
 
-class TestRichel(unittest.TestCase):
+class TestMO(unittest.TestCase):
 
     """Class to test the code in learners.maria_ole"""
 
@@ -12,6 +12,8 @@ class TestRichel(unittest.TestCase):
         self.assertIsInstance(get_digits(123), list)
         self.assertTrue(get_digits(123)[0] == 1)
         self.assertTrue(len(get_digits(123)) == 3)
-        self.assertRaises(TypeError,get_digits(-5))
-        self.assertRaises(TypeError,get_digits('Hello'))
-        self.assertRaises(TypeError,get_digits(0.4))
+        self.assertRaises(TypeError, get_digits, -5)
+        self.assertRaises(TypeError,get_digits, 'Hello')
+        self.assertRaises(TypeError,get_digits, 0.4)
+        self.assertEqual(get_digits(123), [1, 2, 3])
+        self.assertEqual(get_digits(0), [0])
