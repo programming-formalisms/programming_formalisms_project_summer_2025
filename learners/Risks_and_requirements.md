@@ -1,5 +1,10 @@
 # Risks and requirements
 
+- Richel: These are the requirements that were combined as part
+  of an exercise.
+  However, use [../docs/requirements.md](../docs/requirements.md)
+  as the real requirements for the learners' project
+
 | Requirement ID | Requirement Description | Acceptance Criteria | Test Cases |
 | -------- | ------- | ------- | ------- |
 | R1 | Read data | 
