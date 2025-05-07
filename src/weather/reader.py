@@ -7,6 +7,7 @@ def read_data(filepath:str):
     import os 
     if not os.path.isfile(filepath):
         raise RuntimeError("file not found! Incorrect filepath?")
+    
     # see if file can be read into a list (each element is one line)
     with open(filepath, "r") as infile:
         infile_list = infile.readlines()
@@ -14,4 +15,3 @@ def read_data(filepath:str):
     if len(infile_list) >0:
         return True
     
-read_data("../../data/uppsala_tm_1722-2022.dat")

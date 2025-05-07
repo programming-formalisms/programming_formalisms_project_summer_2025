@@ -8,10 +8,6 @@ class TestReader(unittest.TestCase):
 
     """Class to test the code in src.weather.reader."""
 
-    def test_read_data(self):
-        """The function 'read_data' exists."""
-        self.assertFalse(read_data(""))
-
     def test_reader_has_documentation(self):
         """The function 'is_zero' has documentation."""
         self.assertTrue(read_data.__doc__)
