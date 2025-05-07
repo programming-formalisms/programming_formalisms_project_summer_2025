@@ -17,4 +17,5 @@ class TestReader(unittest.TestCase):
         self.assertTrue(read_data.__doc__)
 
     def test_reader_reads_file(self):
-        self.assertTrue(read_data("../data/uppsala_tm_1722-2022.dat"))
+        self.assertTrue(read_data("programming_formalisms_project_summer_2025/data/uppsala_tm_1722-2022.dat"))
+        self.assertRaises(RuntimeError, read_data, "wrong_filepath")
