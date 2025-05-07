@@ -1,1 +1,3 @@
 This is a text file, with text in it. 
+
+I made further changes in this file. 
