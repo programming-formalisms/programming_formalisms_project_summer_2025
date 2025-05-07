@@ -4,6 +4,7 @@ Through Git they will share,
 With reviews they will care,  
 Making software that shines oh so bright.  
 
+# the extra line is because it was requested - 
 A bug that once brought them despair,  
 Is squashed with a click and a stare.  
 As pull requests flow,  
