@@ -6,3 +6,7 @@ A2: Checklist of good etiquette:
 2) share screen
 3) talk
 4) switch roles
+
+A3: we decide beforehand how to divide the work tasks (how much work/code units is assigned to each person). Account for size of each tasks, experience and pacing.
+
+A4: Less errors. More expensive for your employer. Efficient in the long term. The less experienced person in the pair learns quickly.  Expertise gets diffused within your team.
