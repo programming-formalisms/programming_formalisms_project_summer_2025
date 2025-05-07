@@ -1,11 +1,11 @@
-"""Tests all code in src.bacsim.andrei_utils."""
+"""Tests all code in src.weather.andrei_utils."""
 import unittest
 
-from src.bacsim.andrei_utils import is_zero
+from src.weather.andrei_utils import is_zero
 
 class TestSvenUtils(unittest.TestCase):
 
-    """Class to test the code in src.bacsim.andrei_utils."""
+    """Class to test the code in src.weather.andrei_utils."""
 
     def test_is_zero_has_documentation(self):
         """The function 'is_zero' has documentation."""

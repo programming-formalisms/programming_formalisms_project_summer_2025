@@ -1,4 +1,4 @@
-"""Tests all code in src.bacsim.sven_utils."""
+"""Tests all code in src.weather.sven_utils."""
 import unittest
 
 from src.learners.xiuqi_utils import is_zero
@@ -6,7 +6,7 @@ from src.learners.xiuqi_utils import isprime
 
 class TestXiuqiUtils(unittest.TestCase):
 
-    """Class to test the code in src.bacsim.sven_utils."""
+    """Class to test the code in src.weather.sven_utils."""
 
     def test_is_zero_has_documentation(self):
         """The function 'is_zero' has documentation."""

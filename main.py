@@ -2,7 +2,7 @@
 
 Project used in the UPPMAX Programming Formalisms course.
 
-You need to have the bacsim Python package installed.
+You need to have the weather Python package installed.
 
 Tip: run './scripts/install_this_package.sh'
 """
