@@ -11,10 +11,10 @@ class TestUtilsAO(unittest.TestCase):
     # Test if it is a roman numeral
     def test_roman_numeral(self):
         """The input is a roman numeral"""
-        self.assertTrue('I')
-        self.assertTrue('II')
-        self.assertTrue('V')
-        self.assertTrue('X')
-        self.assertTrue('L')
-        self.assertFalse('A')
+        self.assertTrue(is_roman_numeral('I'))
+        self.assertTrue(is_roman_numeral('II'))
+        self.assertTrue(is_roman_numeral('V'))
+        self.assertTrue(is_roman_numeral('X'))
+        self.assertTrue(is_roman_numeral('L'))
+        self.assertFalse(is_roman_numeral('A'))
         
