@@ -1,1 +1,3 @@
 Some change for testing merging branches.
+
+Adding changes in the second branch.
