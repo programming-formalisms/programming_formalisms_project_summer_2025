@@ -10,4 +10,4 @@ for example, the folder of Richèl is called `richel`.
 
 * [Richèl](richel/README.md)
 
-main person was here
+
