@@ -11,3 +11,5 @@ class Parameters:
         return f'Number of bacteria: {self.n_bacteria} \nNumber of timesteps: {self.n_timesteps} \nGradient type: {self.gradient_type} \nBacteria initialization: {self.bacteria_initialization}'
     def __repr__(self):
         return 'Parameters'
+
+print(Parameters(42, 1000, 'uniform', 'uniform'))

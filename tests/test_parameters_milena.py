@@ -9,9 +9,9 @@ class TestParameters(unittest.TestCase):
     """Class to test the code in src.weather.reader."""
 
     def test_input(self):
-        """The function 'read_data' exists."""
+        """The class Parameters has a documentation."""
         self.assertIsNotNone(Parameters.__doc__)
     
     def test_type(self):
         """The class should have the data type called 'Parameters'. """
-        self.assertIsInstance(Parameters)
+        self.assertEqual(str(type(Parameters(42, 1000, 'uniform', 'uniform'))), "<class 'src.learners.parameters_class_exercise1.Parameters'>")
