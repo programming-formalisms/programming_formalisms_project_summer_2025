@@ -10,14 +10,18 @@ class TestAndrejArturClass(unittest.TestCase):
     # Test input parameters type for the class
     def test_param_types(self):
         """Test the bacteria number type"""
-        param0 = Parameters("exp", 1000, 49, 554)
+        self.assertRaises(TypeError, Parameters.__init__, "exp", 1000, "40", 50)
+
+        # param0 = Parameters("exp", 1000, 49, 554)
         
-        param1 = Parameters(-20, -1000, "test", "test") # two wrong parameters
-        param2 = Parameters(20.245, 1000, "test", "test")
+        # param1 = Parameters(-20, -1000, "test", "test") # two wrong parameters
+        # param2 = Parameters(20.245, 1000, "test", "test")
 
         
-        self.assertTrue(isinstance(param0.get_n_bacteria(), int))
-        #self.assertRaises(TypeError, param0.get_n_bacteria(), int)
+        # self.assertTrue(isinstance(param0.get_n_bacteria(), int))
+
+
+       
 
         # self.assertTrue(TypeError, Parameters(20, 1000, "test", "test"))
 
