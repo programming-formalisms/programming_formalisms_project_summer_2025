@@ -11,3 +11,7 @@ class TestParameters(unittest.TestCase):
     def test_input(self):
         """The function 'read_data' exists."""
         self.assertIsNotNone(Parameters.__doc__)
+    
+    def test_type(self):
+        """The class should have the data type called 'Parameters'. """
+        self.assertIsInstance(Parameters)
