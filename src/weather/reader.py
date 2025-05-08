@@ -14,7 +14,7 @@ def read_data(filepath:str):
 
         all_measurements = []
         for measurement in infile_list:
-            year, month, day, temp, temp_corrected, loc_id = measurement.strip().split("\t")
+            year, month, day, temp, temp_corrected, loc_id = measurement.strip().split()
             measurement_date = Date(year, month, day)
             measurement_temp = Temperature(temp, temp_corrected)
             all_measurements.append(DataPoint(measurement_date, measurement_temp, loc_id))
@@ -45,5 +45,8 @@ class DataPoint:
       self.loc_id = metadata_id
     def __str__(self):
         return (
-            f"Temperature on {print(self.date)}:\n{print(self.temp)}\nlocation ID: {str(self.loc_id)}"
+            f"Temperature on {self.date}:\n{self.temp}\nlocation ID: {str(self.loc_id)}"
         )
+
+#test_result = read_data("/Users/xiuqi.ji/Library/CloudStorage/OneDrive-KarolinskaInstitutet/NAISS/Programming_Formalisms/programming_formalisms_project_summer_2025/data/uppsala_tm_1722-2022.dat")
+#print(test_result[0])
