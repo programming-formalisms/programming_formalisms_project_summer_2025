@@ -9,3 +9,11 @@ class TestPosition(unittest.TestCase):
         self.assertRaises(TypeError, Position, "string0", "string1")
         self.assertRaises(TypeError, Position, 0, "string1")
         self.assertRaises(TypeError, Position, "string1", 1)
+
+    def test_invalid_arguments(self):
+                with self.assertRaises(TypeError):
+                    Position([5, 0.679], 0.679)
+                with self.assertRaises(TypeError):
+                    Position(5, "string")
+                with self.assertRaises(TypeError):
+                    Position(None, 0.679)
