@@ -11,9 +11,17 @@ def read_data(filepath:str):
     # see if file can be read into a list (each element is one line)
     with open(filepath, "r") as infile:
         infile_list = infile.readlines()
-    
-    if len(infile_list) >0:
-        return True
+
+        all_measurements = []
+        for measurement in infile_list:
+            year, month, day, temp, temp_corrected, loc_id = measurement.strip().split("\t")
+            measurement_date = Date(year, month, day)
+            measurement_temp = Temperature(temp, temp_corrected)
+            all_measurements.append(DataPoint(measurement_date, measurement_temp, loc_id))
+
+    return all_measurements
+    # if len(infile_list) >0:
+    #     return True
 
 class Date:
     def __init__(self, y:int,m:int,d:int):
@@ -28,14 +36,14 @@ class Temperature:
       self.temp = temp
       self.temp_corrected = temp_corrected
     def __str__(self):
-        return "(" + str(self.x) + ", " + str(self.y) + ")"
+        return f'measured temperature: {self.temp}°C, corrected for urban effect: {self.temp_corrected}°C'
 
 class DataPoint:
-    def __init__(self, any_position, any_velocity):
-      self.position = any_position
-      self.velocity = any_velocity
+    def __init__(self, measurement_date:Date, measurement_temperature:Temperature, metadata_id:int):
+      self.date = measurement_date
+      self.temp = measurement_temperature
+      self.loc_id = metadata_id
     def __str__(self):
         return (
-            "Position: " + str(self.position)  + ", "
-            + "velocity" + str(self.velocity)
+            f"Temperature on {print(self.date)}:\n{print(self.temp)}\nlocation ID: {str(self.loc_id)}"
         )
