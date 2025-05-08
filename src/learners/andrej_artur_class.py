@@ -1,6 +1,9 @@
 class Parameters:
     def __init__(self, n_bacteria, n_timestamps, gradient_type, bacteria_initialization):
-        self.n_bacteria = n_bacteria
+        if isinstance(n_bacteria, int) and n_bacteria >= 0:
+            self.n_bacteria = n_bacteria
+        else:
+            raise TypeError("n_bacteria must be a non-negative integer")
         self.n_timestamps = n_timestamps
         self.gradient_type = gradient_type
         self.bacteria_initialization = bacteria_initialization
