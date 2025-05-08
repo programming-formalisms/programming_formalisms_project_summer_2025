@@ -4,11 +4,13 @@ class Parameters:
             self.n_bacteria = n_bacteria
         else:
             raise TypeError("n_bacteria must be a non-negative integer")
-        # assert isinstance(n_bacteria, int) # must be a int
-        # assert n_bacteria >= 0 # must be larger than 0
         self._n_bacteria = n_bacteria
 
-        self.n_timestamps = n_timestamps
+        if isinstance(n_timestamps, int) and n_timestamps >= 0:
+            self.n_timestamps = n_timestamps
+        else:
+            raise TypeError("n_timestamps must be a non-negative integer")
+
         self.gradient_type = gradient_type
         self.bacteria_initialization = bacteria_initialization
     def __str__(self):
