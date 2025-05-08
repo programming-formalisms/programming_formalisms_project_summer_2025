@@ -11,3 +11,15 @@ def isprime(num):
         if num%n==0:
             return False
     return True
+
+def is_datetime(x):
+    from datetime import datetime
+    if not isinstance(x,str):
+        raise TypeError("The input must be a string.")
+    if len(x) != 16:
+        return False
+    try:
+        datetime.strptime(x, "%Y-%m-%d %H:%M")
+        return True
+    except ValueError:
+        return False
