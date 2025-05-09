@@ -12,4 +12,4 @@ from weather.reader import (
 )
 
 if __name__ == "__main__":
-    read_data()
+    read_data("data/some_path.csv")
