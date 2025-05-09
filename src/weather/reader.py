@@ -48,5 +48,5 @@ class DataPoint:
             f"Temperature on {self.date}:\n{self.temp}\nlocation ID: {str(self.loc_id)}"
         )
 
-#test_result = read_data("/Users/xiuqi.ji/Library/CloudStorage/OneDrive-KarolinskaInstitutet/NAISS/Programming_Formalisms/programming_formalisms_project_summer_2025/data/uppsala_tm_1722-2022.dat")
+#test_result = read_data("/programming_formalisms_project_summer_2025/data/uppsala_tm_1722-2022.dat")
 #print(test_result[0])
