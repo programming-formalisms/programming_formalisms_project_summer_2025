@@ -8,4 +8,8 @@ In terminal run
   
     python main.py
 
-Load data and select an analysis.
+Load data by running
+
+    python readers.py
+
+and select an analysis.
