@@ -9,5 +9,3 @@ In terminal run
     python main.py
 
 Load data and select an analysis.
-
-Maria: I  am adding an edit. 
